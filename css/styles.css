@@ -162,6 +162,7 @@ img {
 }
 
 .hero-title {
+	padding-top: 200px;
 	margin-bottom: 30px;
 
 	color: var(--white-color);
@@ -198,6 +199,10 @@ img {
 .button.primary {
 	color: var(--white-color);
 	background-color: var(--accent-color);
+}
+
+.hero-button {
+	padding-bottom: 200px;
 }
 
 .hero-button .primary:hover,
