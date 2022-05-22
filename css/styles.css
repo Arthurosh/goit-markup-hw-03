@@ -99,7 +99,7 @@ img {
 
 .site-nav {
 	display: flex;
-	margin-left: 40px;
+	margin-left: 93px;
 }
 
 .site-nav .link {
@@ -159,10 +159,11 @@ img {
 .hero {
 	background-color: var(--second-bg-color);
 	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 .hero-title {
-	padding-top: 200px;
 	margin-bottom: 30px;
 
 	color: var(--white-color);
@@ -201,10 +202,6 @@ img {
 	background-color: var(--accent-color);
 }
 
-.hero-button {
-	padding-bottom: 200px;
-}
-
 .hero-button .primary:hover,
 .hero-button .primary:focus {
 	background-color: var(--second-accent-color);
@@ -223,11 +220,11 @@ img {
 .filter {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 50px;
 }
 
 .filter .button {
 	padding: 6px 22px;
-	margin-bottom: 50px;
 	border: 0;
 
 	font-weight: 500;
@@ -279,6 +276,7 @@ img {
 
 	color: var(--title-text-color);
 	font-weight: 700;
+	font-size: 14px;
 	line-height: 1.14;
 	text-transform: uppercase;
 }
@@ -302,7 +300,6 @@ img {
 }
 
 .team .team-title {
-	margin-top: 30px;
 	margin-bottom: 10px;
 
 	color: var(--title-text-color);
@@ -312,10 +309,13 @@ img {
 }
 
 .team .team-position {
-	margin-bottom: 30px;
-
 	font-size: 16px;
 	line-height: 1.19;
+}
+
+.team-content {
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .team {
@@ -388,9 +388,9 @@ img {
 }
 
 .portfolio-content {
-	height: 110px;
 	padding: 20px 24px;
 	border: 1px solid var(--border-second-color);
+	border-top: none;
 }
 
 .portfolio .portfolio-title {
